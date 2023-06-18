@@ -1,0 +1,90 @@
+.home{
+    background-image: url(../imgs/images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100vh;   
+}
+.parentOfContentOfHomeSection{
+    top: 50%;
+    width: 100%;
+    transform: translate(0%,-50%);
+}
+.contentOfHomeSection p{
+    font-size: 25px;
+}
+.contentOfHomeSection h1{
+    font-size: 70px;
+}
+.contentOfHomeSection .button1{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px white;
+    transition: all ease 0.5s;
+    margin-right: 10px;
+}
+.button1:hover{
+    background-color: rgb(197, 195, 195);
+    color: black;
+}
+.contentOfHomeSection .button2{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+/* .iconOfAbout{
+    border-radius: 30%;
+    border:1px solid black;
+} */
+.about{
+    background-color:rgb(245, 244, 244);
+}
+.hoverForImage{
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all ease 0.3s;
+    background-color: rgba(0,0, 0, 0);
+}
+.about img{
+    transition: all ease 0.3s;
+    
+}
+.hoverForImage:hover {
+    background-color: rgba(223, 213, 213, 0.5);
+    opacity: 1;
+}
+.hoverForImage i{
+    cursor: pointer;
+}
+footer{
+    background-color: #4d382f;
+}
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #2A272B !important;
+        color: #ffffff !important;
+        z-index: 999999999999999;
+    }
+    .sec{
+        margin-bottom: 48px;
+    }
+    .navbar-brand{
+        width: 84%;
+        margin-right: 0px;
+    }
+    .img{
+        width: 40%;
+    }
+}
+@media (max-width:653px) {
+    .navbar-brand{
+        width:78%;
+        margin-right: 0px;
+    }
+}
